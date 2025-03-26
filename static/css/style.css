@@ -1,0 +1,50 @@
+/* Основные стили для страницы с Марсом */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #d9534f;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2em;
+    color: #5bc0de;
+    font-style: italic;
+}
+
+/* Стили для разноцветных строк */
+.promo-list {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.promo-item {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Яркие контрастные цвета */
+.line1 { background-color: #FFEBEE; color: #C62828; }
+.line2 { background-color: #FFF8E1; color: #FF8F00; }
+.line3 { background-color: #E8F5E9; color: #2E7D32; }
+.line4 { background-color: #E3F2FD; color: #1565C0; }
+.line5 { background-color: #F3E5F5; color: #6A1B9A; }
