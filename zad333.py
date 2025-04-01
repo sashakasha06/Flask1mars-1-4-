@@ -1,5 +1,5 @@
 from flask import Flask
-
+#Код для задачи номер 7 "Результаты отбора"
 app = Flask(__name__)
 
 @app.route('/results/<nickname>/<level>/<rating>')  # ← Слеш в начале обязателен!
